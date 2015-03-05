@@ -5,11 +5,12 @@
     min-height: 100%;
     width: 100%;
     background-image:url("img/background.png");
-    background-attachment: scroll;
+    /*background-attachment: scroll;
     -webkit-background-size: auto;
     background-size: auto;
     background-position: 0% 0%;
-    background-repeat: repeat repeat;
+    */
+	background-repeat: repeat repeat;
 }
 
 #image {
