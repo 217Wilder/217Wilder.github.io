@@ -8,8 +8,8 @@
     background-attachment: scroll;
     -webkit-background-size: auto;
     background-size: auto;
-    background-position: 0% 0%;
-    background-repeat: repeat repeat;
+    background-position: 0%;
+    background-repeat: repeat;
 }
 
 #box {
