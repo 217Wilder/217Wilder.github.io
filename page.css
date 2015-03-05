@@ -1,0 +1,223 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("img/background.png");
+    background-attachment: scroll;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#box {
+    float: left;
+    height: 78px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(52, 52, 52);
+}
+
+#box1 {
+    float: left;
+    height: 4px;
+    margin: 0px;
+    clear: both;
+    width: 100%;
+    min-width: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+#text {
+    float: left;
+    font-size: 2.25em;
+    width: 10.84436875em;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 7.327586%;
+    margin-top: 14px;
+    clear: none;
+    min-height: 1em;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI Light';
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 8.533566%;
+    margin-top: -358.5px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#text1 {
+    float: left;
+    font-size: 7.5em;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 15.865737%;
+    margin-top: 58px;
+    clear: both;
+    min-height: 75px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI Light';
+    margin-right: 0px;
+}
+
+#text2 {
+    float: left;
+    font-size: 1em;
+    width: 32.934015%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 15.865737%;
+    margin-top: 20px;
+    clear: none;
+    min-height: 250px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI Light';
+    margin-right: 0px;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-left: 15.865737%;
+    margin-top: 30px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+#text3 {
+    float: left;
+    font-size: 2em;
+    width: 22.00454%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 30px;
+    clear: none;
+    min-height: 41px;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family: 'Segoe UI Light';
+}
+
+#textspan {
+    float: none;
+    font-size: 2em;
+    line-height: 1em;
+    font-family: 'Segoe UI Light';
+}
+
+#textspan1 {
+    float: none;
+    font-size: 1.5em;
+    line-height: 1em;
+    font-family: 'Segoe UI Light';
+}
+
+#input {
+    float: left;
+    height: 59px;
+    font-size: 2em;
+    margin-left: 15.865737%;
+    margin-top: 49.5px;
+    clear: both;
+    width: 313px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(51, 153, 204);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display: block;
+    background-color: rgb(51, 153, 204);
+    margin-right: 0%;
+    font-family: 'Segoe UI Light';
+}
+
+@media only screen and (max-width: 875px) {
+    #image1 {
+        margin-top: 15px;
+        margin-left: 14.748128%;
+        clear: both;
+    }
+
+    #box1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: both;
+    }
+
+    #text1 {
+        margin-top: 58px;
+        margin-left: 15.865072%;
+        clear: both;
+    }
+
+    #input {
+        margin-top: 49.5px;
+        margin-left: 15.865072%;
+        clear: both;
+        width: 313px;
+    }
+
+    #image {
+        margin-top: 30px;
+        margin-left: 15.865072%;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #box1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: both;
+    }
+
+    #text1 {
+        margin-top: 58px;
+        margin-left: 15.86263%;
+        clear: both;
+    }
+
+    #input {
+        margin-top: 49.5px;
+        margin-left: 15.86263%;
+        clear: both;
+    }
+
+    #image {
+        margin-top: 30px;
+        margin-left: 15.86263%;
+        clear: both;
+    }
+
+    #image1 {
+        margin-top: 20px;
+        margin-left: 7.327474%;
+        clear: both;
+    }
+}
+
